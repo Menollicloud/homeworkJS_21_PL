@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+.container, .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    padding-top: 25px;    
+}
+
+.form {
+    justify-content: space-between;
+    height: 50px;    
+}
+
+.figure {
+    background: yellow;
+    height: 150px;
+    margin-bottom: 25px;
+}
+
+.square, .circle {
+    width: 150px;
+}
+
+.rectangle {
+    width: 250px;
+}
+
+.circle {
+    border-radius: 100px;
+}
